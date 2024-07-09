@@ -1,0 +1,950 @@
+<!-- Intro -->
+<section id="intro" class="intro">
+    <!-- Static Intro -->
+    <div class="bg-image overlay-dark40 dark-bg parallax parallax-background2" data-background-img="assets/img/full/home_noa.jpg">
+        <div class="js-fullscreen-height container">
+            <div class="intro-content">
+                <div class="intro-content-inner">
+
+                    <h1 class="intro-title mb-50 text-light"><span class="text-light">{{ 'Hi! I am Hsuan Chang' | translate }}<br>
+                        {{ 'Professional Product Manager' | translate }}</span></h1>
+                    <h5 class="alt-title intro-sub-title">{{ getLocation() | translate }}</h5>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Static Intro -->
+</section>
+<!-- End Intro -->
+
+<!-- About Section -->
+<section id="about" class="section-padding">
+    <div class="container text-center pb-50">
+        <img src="assets/img/full/avatar.jpg" class="d-none d-md-inline" style="border-radius:50%; width:20%">
+        <img src="assets/img/full/avatar.jpg" class="d-md-none" style="border-radius:50%; width:20%">
+    </div>
+    <div class="container text-center">
+        <h2 class="mb-60">{{ 'About Me' | translate }}</h2>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6 mb-sm-30">
+                <p class="lead">
+                    <span [innerHTML]="'about_me_1' | translate"></span><br>
+                    <span [innerHTML]="'about_me_2' | translate"></span>
+                </p>
+            </div>
+            <div class="col-md-3"></div>
+            <!--div class="col-md-6 mb-sm-30">
+                <p class="lead">
+                    　我叫張璇，第一次接觸產品是幫腦性痲痹孩童設計復健感壓系統，基於對使用者的高度觀察力進入這項領域。<br>
+                    　我的專長為在專案管理遇到問題時想出創新的解決方案，並活用我因多專業所具備的知識與資源。
+                </p>
+            </div-->
+
+            <!--div class="col-md-4 mb-sm-30">
+                <p class="lead-lg">{{ "Let's make it happend." | translate }}</p>
+                <h6 class="quote-author alt-title mt-25">&mdash; Douasin </h6>
+            </div>
+            <div class="col-md-4 mb-sm-30">
+                <p class="lead">{{ "Hello, I'm a " | translate }}<b>{{ 'Full Stack Web Developer' | translate }}</b>{{ ' from Taipei.' | translate }}
+                    {{ 'I have been the first line of many projects.' | translate }} 
+                    {{ "I make them and make sure them work great on customer's servers." | translate }}</p>
+            </div>
+            <div class="col-md-4">
+                <p class="lead">{{ 'My skills are broad.' | translate }} 
+                    {{ 'From Front End to Back End, From Design to Server. And more.' | translate }}
+                    {{ 'Not only I can combine many different things together, but also I can help team partners who have different skills communicate to each other easier.' | translate }}</p>
+            </div-->
+        </div>
+    </div>
+    <div class="container">
+        <!-- Tab Navigation -->
+        <ul class="icon-tab-nav tabs" data-tabgroup="tab-group">
+            <li>
+                <!--a href="#tab1" class="active"-->
+                <a href="#tab1">
+                    <i class="icon-lightbulb"></i>
+                    <h6 class="icon-tab-nav-title alt-title d-none d-md-block">Solutions/Analysis</h6>
+                </a>
+            </li>
+            <li>
+                <a href="#tab2">
+                    <i class="icon-tools"></i>
+                    <h6 class="icon-tab-nav-title alt-title d-none d-md-block">UI/UX</h6>
+                </a>
+
+            </li>
+            <li>
+                <a href="#tab3">
+                    <i class="icon-gears"></i>
+                    <h6 class="icon-tab-nav-title alt-title d-none d-md-block">System Design</h6>
+                </a>
+            </li>
+            <!--li>
+                <a href="#tab4">
+                    <i class="icon-happy"></i>
+                    <h5 class="icon-tab-nav-title alt-title">UX</h5>
+                </a>
+            </li>
+            <li>
+                <a href="#tab5">
+                    <i class="icon-bargraph"></i>
+                    <h5 class="icon-tab-nav-title alt-title">Analysis</h5>
+                </a>
+            </li-->
+        </ul>
+        <!-- Tab Navigation -->
+    </div>
+</section>
+<!-- End About Section -->
+
+<hr />
+
+<!-- History Section -->
+<section id="history" class="section-padding">
+    <div class="container text-center">
+        <h2 class="mb-60">{{ 'My Experience' | translate }}</h2>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="history-box mb-30">
+                    <h6 class="alt-title history-year">2021-2022</h6>
+                    <h4 class="history-title" [innerHTML]="'work_6_title' | translate"></h4>
+                    <p class="lead history-content" [innerHTML]="'work_6_content_1' | translate"></p>
+                    <hr>
+                    <p class="lead history-content" [innerHTML]="'work_6_content_2' | translate"></p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="history-box mb-30">
+                    <h6 class="alt-title history-year">2020-2021</h6>
+                    <h4 class="history-title" [innerHTML]="'work_5_title' | translate"></h4>
+                    <p class="lead history-content" [innerHTML]="'work_5_content_1' | translate"></p>
+                    <hr>
+                    <p class="lead history-content" [innerHTML]="'work_5_content_2' | translate"></p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="history-box mb-30">
+                    <h6 class="alt-title history-year">2018 - 2020</h6>
+                    <h4 class="history-title" [innerHTML]="'work_4_title' | translate"></h4>
+                    <p class="lead history-content" [innerHTML]="'work_4_content_1' | translate"></p>
+                    <hr>
+                    <p class="lead history-content" [innerHTML]="'work_4_content_2' | translate"></p>
+                    <hr>
+                    <p class="lead history-content" [innerHTML]="'work_4_content_3' | translate"></p>
+                </div>
+            </div>
+            <!--div class="col-md-6">
+                <div class="history-box">
+                    <h6 class="alt-title history-year">2017 - 2018</h6>
+                    <h4 class="history-title" [innerHTML]="'work_3_title' | translate"></h4>
+                    <p class="lead history-content" [innerHTML]="'work_3_content_1' | translate"></p>
+                    <hr>
+                    <p class="lead history-content" [innerHTML]="'work_3_content_2' | translate"></p>
+                </div>
+            </div-->
+            <div class="col-md-6">
+                <div class="history-box">
+                    <h6 class="alt-title history-year">2016 - 2017</h6>
+                    <h4 class="history-title" [innerHTML]="'work_2_title' | translate"></h4>
+                    <p class="lead history-content" [innerHTML]="'work_2_content_1' | translate"></p>
+                    <hr>
+                    <p class="lead history-content" [innerHTML]="'work_2_content_2' | translate"></p>
+                    <hr>
+                    <p class="lead history-content" [innerHTML]="'work_2_content_3' | translate"></p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="history-box">
+                    <h6 class="alt-title history-year">2015 - 2016</h6>
+                    <h4 class="history-title" [innerHTML]="'work_1_title' | translate"></h4>
+                    <p class="lead history-content" [innerHTML]="'work_1_content_1' | translate"></p>
+                    <hr>
+                    <p class="lead history-content" [innerHTML]="'work_1_content_2' | translate"></p>
+                    <hr>
+                    <p class="lead history-content" [innerHTML]="'work_1_content_3' | translate"></p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="history-box">
+                    <h6 class="alt-title history-year-secondary">&nbsp;&nbsp;&nbsp;2021&nbsp;&nbsp;&nbsp;</h6>
+                    <h4 class="history-title" [innerHTML]="'school_3_title' | translate"></h4>
+                    <p class="lead history-content" [innerHTML]="'school_3_content' | translate"></p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="history-box">
+                    <h6 class="alt-title history-year-secondary">&nbsp;&nbsp;&nbsp;2014&nbsp;&nbsp;&nbsp;</h6>
+                    <h4 class="history-title" [innerHTML]="'school_2_title' | translate"></h4>
+                    <p class="lead history-content" [innerHTML]="'school_2_content' | translate"></p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="history-box">
+                    <h6 class="alt-title history-year-secondary">&nbsp;&nbsp;&nbsp;2013&nbsp;&nbsp;&nbsp;</h6>
+                    <h4 class="history-title" [innerHTML]="'school_1_title' | translate"></h4>
+                    <p class="lead history-content" [innerHTML]="'school_1_content' | translate"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End History Section -->
+
+<!-- Blog Section -->
+<!--section id="blog" class="section-padding">
+    <div class="container">
+
+        <h2 class="mb-60 text-center">案例分析/Project Anaylsis</h2>
+
+        <div class="row">
+
+            <div class="col-md-4 col-sm-6 mb-sm-30 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.1s"-->
+                <!-- Post -->
+                <!--div class="blog-post">
+                    <div class="post-media">
+                        <img src="assets/img/blog/01.jpg" alt="blog" />
+                    </div>
+                    <div class="post-meta">
+                        <span>XX Bank, </span>
+                        <span class="post-date">06 Jan 2016</span>
+                    </div>
+                    <div class="post-header">
+                        <h4 class="alt-title"><a href="/projects/p2ptransfer">P2P transfer Design</a></h4>
+                    </div>
+                    <div class="post-tag">
+                        <span><a>Project Manager</a></span>
+                        <span><a>System Design</a></span>
+                    </div>
+                </div-->
+                <!-- End Post -->
+            <!--/div>
+        </div-->
+
+        <!--div class="rows text-center mt-60">
+            <a href="#" class="link">View All Blog <i class="fa fa-angle-right right"></i></a>
+        </div-->
+
+    <!--/div>
+</section-->
+<!-- End Blog Section -->
+
+<!-- Image Slider -->
+<hr>
+<section id="project_analysis" class="section-padding bg-image overlay-light80" data-stellar-background-ratio="0.4" data-background-img="assets/img/full/counter.jpg">
+    <div class="page-triangle white-bg"></div>
+    <div class="container text-center">
+        <h2 class="mb-60">{{ 'Project Analysis' | translate }}</h2>
+    </div>
+    <!--div class="container"-->
+        <!-- Slider -->
+        <!--div class="owl-carousel image-carousel nf-carousel-theme">
+            <div class="item gallery-popup pointer">
+                <div class="art-img gallery-popup-link" href="assets/img/project/p2ptransferp1.jpg">
+                    <img src="assets/img/project/p2ptransferp1.jpg" alt="" />
+                </div>
+            </div>
+            <div class="item gallery-popup pointer">
+                <div class="art-img gallery-popup-link" href="assets/img/project/p2ptransferp2.jpg">
+                    <img src="assets/img/project/p2ptransferp2.jpg" alt="" />
+                </div>
+            </div>
+            <div class="item gallery-popup pointer">
+                <div class="art-img gallery-popup-link" href="assets/img/project/p2ptransferp3.jpg">
+                    <img src="assets/img/project/p2ptransferp3.jpg" alt="" />
+                </div>
+            </div>
+        </div-->
+        <!-- End Slider -->
+    <!--/div-->
+	<div class="container mt-60">
+        <div class="card p-5" style="background-image: url('assets/img/project/iot_link.jpg'); background-size: cover; background-repeat: no-repeat">
+            <div class="row m-4">
+                <div class="col-sm-8" style="border-left: 4px solid #17a697">
+                    <h3 class="action-box-title default-cursor">{{ 'IoT SASS Admin' | translate }}</h3>
+                    <p class="action-box-content default-cursor">{{ 'iot_sass_admin_description' | translate }}</p>
+                </div>
+                <div class="col-sm-4 text-sm-right text-center">
+                    <a class="scroll-down btn btn-xlg btn-color-outline mt-lg-1 mt-md-2 mt-sm-4 mt-4" target="_blank" href="{{ 'iot_sass_admin_link' | translate }}">{{ 'Learn More' | translate }}</a>
+                </div>
+            </div>
+        </div>
+	</div>
+
+	<div class="container mt-60">
+        <div class="card p-5" style="background-image: url('assets/img/project/p2ptransfer_link.jpg'); background-size: cover; background-repeat: no-repeat">
+            <div class="row m-4">
+                <div class="col-sm-8" style="border-left: 4px solid #17a697">
+                    <h3 class="action-box-title default-cursor">{{ 'Creactive Transfer' | translate }}</h3>
+                    <p class="action-box-content default-cursor">{{ 'creactive_transfer_description' | translate }}</p>
+                </div>
+                <div class="col-sm-4 text-sm-right text-center">
+                    <a class="scroll-down btn btn-xlg btn-color-outline mt-lg-1 mt-md-2 mt-sm-4 mt-4" target="_blank" href="{{ 'creactive_transfer_link' | translate }}?20220420">{{ 'Learn More' | translate }}</a>
+                </div>
+            </div>
+        </div>
+	</div>
+
+	<div class="container mt-60">
+        <div class="card p-5" style="background-image: url('assets/img/project/rehabilitation_link.jpg'); background-size: cover; background-repeat: no-repeat">
+            <div class="row m-4">
+                <div class="col-sm-8" style="border-left: 4px solid #17a697">
+                    <h3 class="action-box-title default-cursor">{{ 'Rehabilitation Platform' | translate }}</h3>
+                    <p class="action-box-content default-cursor">{{ 'rehabilitation_platform_description' | translate }}</p>
+                </div>
+                <div class="col-sm-4 text-sm-right text-center">
+                    <a class="scroll-down btn btn-xlg btn-color-outline mt-lg-1 mt-md-2 mt-sm-4 mt-4" target="_blank" href="{{ 'rehabilitation_link' | translate }}">{{ 'Learn More' | translate }}</a>
+                </div>
+            </div>
+        </div>
+	</div>
+</section>
+
+
+<hr>
+<!-- Portfolio Section -->
+<section id="portfolio" class="section-padding">
+	<div class="container text-center">
+        <h2 class="mb-60">{{ 'Project List' | translate }}</h2>
+		<p class="lead-lg max-width-700 mb-60">{{ 'Using innovative ideas as well as product expertise to design services and products, spanning multiple industries and parties, that best meet users needs.' | translate }}</p>
+	</div>
+
+	<!-- Portfolio -->
+	<div class="container">
+		<ul class="portfolio-filter categories-filter">
+			<li><a data-filter="*" class="categories active">All</a></li>
+			<li><a data-filter=".daily_life" class="categories">Daily Life</a></li>
+			<li><a data-filter=".banking" class="categories">Banking</a></li>
+			<li><a data-filter=".health" class="categories">Health</a></li>
+			<li><a data-filter=".special_need" class="categories">Special Need</a></li>
+		</ul>
+
+		<div class="rows portfolio-grid gallery-popup">
+
+			<!-- Portfolio Item -->
+			<div class="portfolio-item daily_life banking">
+				<div class="portfolio-box">
+					<a class="porfolio-popup gallery-popup-link" href="assets/img/portfolio/large/team_buy_1.jpg" title="Team Buy 1">
+						<div class="portfolio-image-wrap">
+							<img src="assets/img/portfolio/large/team_buy_1.jpg" alt="" />
+						</div>
+						<div class="portfolio-caption-mask">
+							<div class="portfolio-caption-text">
+								<div class="portfolio-caption-tb-cell">
+									<h5 class="alt-title">Team Buy - 1</h5>
+									<p>solving all team buying issue</p>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+			<!-- End Portfolio Item -->
+
+			<!-- Portfolio Item -->
+			<!--div class="portfolio-item daily_life banking">
+				<div class="portfolio-box">
+					<a class="porfolio-popup gallery-popup-link" href="assets/img/portfolio/large/team_buy_2.png" title="Team Buy 2">
+						<div class="portfolio-image-wrap">
+							<img src="assets/img/portfolio/thumb/team_buy_2.png" alt="" />
+						</div>
+						<div class="portfolio-caption-mask">
+							<div class="portfolio-caption-text">
+								<div class="portfolio-caption-tb-cell">
+									<h5 class="alt-title">Team Buy - 2</h5>
+									<p>solving all team buying issue</p>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div-->
+			<!-- End Portfolio Item -->
+
+			<!-- Portfolio Item -->
+			<div class="portfolio-item daily_life banking">
+				<div class="portfolio-box">
+					<a class="porfolio-popup gallery-popup-link" href="assets/img/portfolio/large/busy_transactor.jpg" title="Busy Transactor">
+						<div class="portfolio-image-wrap">
+							<img src="assets/img/portfolio/large/busy_transactor.jpg" alt="busy_transactor" />
+						</div>
+						<div class="portfolio-caption-mask">
+							<div class="portfolio-caption-text">
+								<div class="portfolio-caption-tb-cell">
+									<h5 class="alt-title">Busy Transacter</h5>
+									<p>faster money transaction</p>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+			<!-- End Portfolio Item -->
+
+			<!-- Portfolio Item -->
+			<div class="portfolio-item banking daily_life">
+				<div class="portfolio-box">
+					<a class="porfolio-popup gallery-popup-link" href="assets/img/portfolio/large/chatbot_spliter.jpg" title="Chatbot Spliter">
+						<div class="portfolio-image-wrap">
+							<img src="assets/img/portfolio/large/chatbot_spliter.jpg" alt="chatbot_spliter" />
+						</div>
+						<div class="portfolio-caption-mask">
+							<div class="portfolio-caption-text">
+								<div class="portfolio-caption-tb-cell">
+									<h5 class="alt-title">Chatbot Spliter</h5>
+									<p>cross group money spliter bot</p>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+			<!-- End Portfolio Item -->
+
+			<!-- Portfolio Item -->
+			<div class="portfolio-item banking">
+				<div class="portfolio-box">
+					<a class="porfolio-popup gallery-popup-link" href="assets/img/portfolio/large/money_book.jpg" title="Money Book">
+						<div class="portfolio-image-wrap">
+							<img src="assets/img/portfolio/large/money_book.jpg" alt="Money Book" />
+						</div>
+						<div class="portfolio-caption-mask">
+							<div class="portfolio-caption-text">
+								<div class="portfolio-caption-tb-cell">
+									<h5 class="alt-title">Money Book</h5>
+									<p>log system for payments</p>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+			<!-- End Portfolio Item -->
+
+			<!-- Portfolio Item -->
+			<div class="portfolio-item daily_life banking">
+				<div class="portfolio-box">
+					<a class="porfolio-popup gallery-popup-link" href="assets/img/portfolio/large/accounting_chicken.jpg" title="Accounting Chicken">
+						<div class="portfolio-image-wrap">
+							<img src="assets/img/portfolio/large/accounting_chicken.jpg" alt="" />
+						</div>
+						<div class="portfolio-caption-mask">
+							<div class="portfolio-caption-text">
+								<div class="portfolio-caption-tb-cell">
+									<h5 class="alt-title">Accounting Chicken</h5>
+									<p>all-in-one accounting chatbot platform</p>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+			<!-- End Portfolio Item -->
+
+			<!-- Portfolio Item -->
+			<div class="portfolio-item banking">
+				<div class="portfolio-box">
+					<a class="porfolio-popup gallery-popup-link" href="assets/img/portfolio/large/feib_web.jpg" title="FEIB Web Redesign">
+						<div class="portfolio-image-wrap">
+							<img src="assets/img/portfolio/large/feib_web.jpg" alt="FEIB Web Redesign" />
+						</div>
+						<div class="portfolio-caption-mask">
+							<div class="portfolio-caption-text">
+								<div class="portfolio-caption-tb-cell">
+									<h5 class="alt-title">FEIB Web Redesign</h5>
+									<p>modern frontend design with better UI/UX</p>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+			<!-- End Portfolio Item -->
+
+			<!-- Portfolio Item -->
+			<div class="portfolio-item health">
+				<div class="portfolio-box">
+					<a class="porfolio-popup gallery-popup-link" href="assets/img/portfolio/large/aed_app.jpg" title="AED APP">
+						<div class="portfolio-image-wrap">
+							<img src="assets/img/portfolio/large/aed_app.jpg" alt="AED APP" />
+						</div>
+						<div class="portfolio-caption-mask">
+							<div class="portfolio-caption-text">
+								<div class="portfolio-caption-tb-cell">
+									<h5 class="alt-title">AED APP</h5>
+									<p>Wiki app for emergency AED</p>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+			<!-- End Portfolio Item -->
+
+			<!-- Portfolio Item -->
+			<div class="portfolio-item health special_need">
+				<div class="portfolio-box">
+					<a class="porfolio-popup gallery-popup-link" href="assets/img/portfolio/large/kid_treatment.jpg" title="Kid Treatment">
+						<div class="portfolio-image-wrap">
+							<img src="assets/img/portfolio/large/kid_treatment.jpg" alt="Kid Treatment" />
+						</div>
+						<div class="portfolio-caption-mask">
+							<div class="portfolio-caption-text">
+								<div class="portfolio-caption-tb-cell">
+									<h5 class="alt-title">Kid Treatment</h5>
+									<p>combined tracking and gaming system, to help kids recover</p>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+			<!-- End Portfolio Item -->
+
+			<!-- Portfolio Item -->
+			<!--div class="portfolio-item branding photography coffee">
+				<div class="portfolio-box">
+					<a class="porfolio-popup gallery-popup-link" href="assets/img/portfolio/large/05.jpg" title="Portfolio Image 05">
+						<div class="portfolio-image-wrap">
+							<img src="assets/img/portfolio/thumb/05.jpg" alt="" />
+						</div>
+						<div class="portfolio-caption-mask">
+							<div class="portfolio-caption-text">
+								<div class="portfolio-caption-tb-cell">
+									<h5 class="alt-title">Simple Portfolio Title</h5>
+									<p>Landscape</p>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div-->
+			<!-- End Portfolio Item -->
+
+		</div>
+
+	</div>
+	<!-- End Portfolio -->
+
+<!-- Statement Section -->
+<!--section id="statement" class="section-padding bg-image dark-bg overlay-dark" data-stellar-background-ratio="0.4" data-background-img="assets/img/full/10.jpg">
+    <div class="container text-center">
+        <a class="video-popup" href="https://www.youtube.com/watch?v=8uZ98Pa3bPE">
+            <span class="play-icon-md">
+                <i class="fa fa-play"></i>
+            </span>
+        </a>
+        <h4 class="max-width-700 mt-30">Eprehenderit in voluptate velit esse cillum dolore eu fugiat nulla. Excepteur sint occaecat cupidatat non proident</h4>
+        <a href="#" class="btn btn-white btn-md mt-20">Download CV</a>
+    </div>
+</section-->
+<!-- End Statement Section -->
+<hr>
+<!-- Service Section -->
+<!--section id="product_management" class="section-padding"-->
+<section id="project_management" class="section-padding bg-image overlay-light80" data-stellar-background-ratio="0.4" data-background-img="assets/img/full/work_with_opacity.jpg">
+	<div class="container text-center">
+		<h2 class="mb-60">{{ 'Product Management' | translate }}</h2>
+		<div class="row">
+			<div class="col-md-4 col-sm-6 pt-60 pt-sm-0 wow fadeInLeft">
+				<div class="content-box alt-right">
+					<div class="alt-icon-right">
+						<i class="icon-linegraph"></i>
+					</div>
+					<h4 class="alt-title">{{ 'Business' | translate }}</h4>
+                    <p>{{ 'business_content' | translate }}</p>
+				</div>
+				<div class="content-box alt-right">
+					<div class="alt-icon-right">
+						<i class="icon-presentation"></i>
+					</div>
+                    <h4 class="alt-title">{{ 'Cooperation' | translate }}</h4>
+                    <p>{{ 'cooperation_content' | translate }}</p>
+				</div>
+				<div class="content-box alt-right">
+					<div class="alt-icon-right">
+						<i class="icon-anchor"></i>
+					</div>
+					<h4 class="alt-title">{{ 'Plan' | translate }}</h4>
+                    <p>{{ 'plan_content' | translate }}</p>
+				</div>
+				<!--div class="content-box alt-right">
+					<div class="alt-icon-right">
+						<i class="icon-magnifying-glass"></i>
+					</div>
+					<h4 class="alt-title">{{ 'Troubleshoot' | translate }}</h4>
+                    <p>{{ 'Resolve problems during product execution while control costs and risks.' | translate }} </p>
+				</div-->
+			</div>
+			<!-- Image Mockup -->
+			<div class="col-md-4 text-center wow fadeInUp">
+				<img alt="" src="assets/img/mockup/splitter_with_phone4.gif" style="width: 100%; max-width: 320px;">
+                <!--div class="d-none d-md-flex" style="position: absolute; top:0; left: 0; right: 0; bottom: 0; text-align: center; display: flex; align-items: center; justify-content: center;">
+                    <img class="d-none d-sm-none d-md-inline" alt="" src="assets/img/mockup/spliter.gif" style="position: relative; width: 80%; top: -1.6rem">
+                </div>
+                <img class="d-xs-inline d-md-none" alt="" src="assets/img/mockup/spliter.gif" style="width: 100%; max-width: 320px;"-->
+			</div>
+			<!-- End Image Mockup -->
+			<div class="col-md-4 col-sm-6 pt-60 pt-sm-0 wow fadeInRight">
+				<div class="content-box alt-left">
+					<div class="alt-icon-left">
+						<i class="icon-tools"></i>
+					</div>
+					<h4 class="alt-title">{{ 'Design' | translate }}</h4>
+					<p>{{ 'design_content' | translate }}</p>
+				</div>
+				<div class="content-box alt-left">
+					<div class="alt-icon-left">
+						<i class="icon-mobile"></i>
+					</div>
+					<h4 class="alt-title">{{ 'Techniques' | translate }}</h4>
+					<p>{{ 'techniques_content' | translate }}</p>
+				</div>
+				<div class="content-box alt-left">
+					<div class="alt-icon-left">
+						<i class="icon-anchor"></i>
+					</div>
+					<h4 class="alt-title">{{ 'Management' | translate }}</h4>
+                    <p>{{ 'management_content' | translate }}</p>
+				</div>
+				<!--div class="content-box alt-left">
+					<div class="alt-icon-left">
+						<i class="icon-newspaper"></i>
+					</div>
+					<h4 class="alt-title">{{ 'Trend' | translate }}</h4>
+					<p>{{ 'Following lastest technique trend and utilizing in projects.' | translate }}</p>
+				</div>
+				<div class="content-box alt-left">
+					<div class="alt-icon-left">
+						<i class="icon-genius"></i>
+					</div>
+					<h4 class="alt-title">{{ 'Partners' | translate }}</h4>
+					<p>{{ 'Using multiple resources to strengthen products and expand business.' | translate }}</p>
+				</div-->
+			</div>
+
+		</div>
+	</div>
+</section>
+<!-- End Service Section -->
+
+<!-- Blog Section -->
+<section id="blog" class="section-padding white-bg d-none">
+    <div class="container">
+        <h1 class="mb-60 text-center">My Researches</h1>
+        <div class="row">
+            <!--div class="col-md-4 col-sm-6 mb-sm-30 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.1s"-->
+            <div class="col-md-6 col-sm-6 mb-sm-30 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.1s">
+                <!-- Post -->
+                <a href="https://medium.com/@hsuanchang_77331/fa01ef930e0d" target="_blank">
+                    <div class="blog-post" [routerLink]="''">
+                        <div class="post-media">
+                            <img src="https://miro.medium.com/max/1286/1*puA-OLarPVxSm7NNKMJG_g.png" alt="blog" />
+                        </div>
+                        <div class="post-meta">
+                            <span>by <a href="https://medium.com/@hsuanchang_77331/fa01ef930e0d" target="_blank">Hsuan Chang</a>,</span>
+                            <span class="post-date">24 Dec 2017</span>
+                        </div>
+                        <div class="post-header">
+                            <h4 class="alt-title"><a href="https://medium.com/@hsuanchang_77331/fa01ef930e0d" target="_blank">理財機器人洞察</a></h4>
+                        </div>
+                        <div class="post-tag">
+                            <span><a href="https://medium.com/@hsuanchang_77331/fa01ef930e0d" target="_blank">Fintech</a></span>
+                            <span><a href="https://medium.com/@hsuanchang_77331/fa01ef930e0d" target="_blank">Investing</a></span>
+                        </div>
+                    </div>
+                </a>
+                <!-- End Post -->
+            </div>
+            <div class="col-md-6 col-sm-6 mb-sm-30 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.2s">
+                <!-- Post -->
+                <a href="https://medium.com/@hsuanchang_77331/57691571e688" target="_blank">
+                    <div class="blog-post">
+                        <div class="post-media">
+                            <img src="https://miro.medium.com/max/600/1*sNpQf36MgndG45ApZAwkQQ.jpeg" alt="blog" />
+                        </div>
+                        <div class="post-meta">
+                            <span>by <a href="https://medium.com/@hsuanchang_77331/57691571e688" target="_blank">Hsuan Chang</a>,</span>
+                            <span class="post-date">13 Jan 2018</span>
+                        </div>
+                        <div class="post-header">
+                            <h4 class="alt-title"><a href="https://medium.com/@hsuanchang_77331/57691571e688">美國數位金融體驗分享</a></h4>
+                        </div>
+                        <div class="post-tag">
+                            <span><a href="https://medium.com/@hsuanchang_77331/57691571e688" target="_blank">Finance</a></span>
+                            <span><a href="https://medium.com/@hsuanchang_77331/57691571e688" target="_blank">Fintect</a></span>
+                            <span><a href="https://medium.com/@hsuanchang_77331/57691571e688" target="_blank">Culture</a></span>
+                        </div>
+                    </div>
+                </a>
+                <!-- End Post -->
+            </div>
+        </div>
+        <div class="rows text-center mt-60">
+            <a href="https://medium.com/@hsuanchang_77331" class="link">View All Posts <i class="fa fa-angle-right right"></i></a>
+        </div>
+    </div>
+</section>
+<!-- End Blog Section -->
+
+<!-- Image Slider -->
+<section class="section-padding">
+    <div class="container text-center">
+        <h2 class="mb-60">{{ 'Work of Art' | translate }}</h2>
+    </div>
+    <div class="container">
+        <!-- Slider -->
+        <div class="owl-carousel image-carousel nf-carousel-theme">
+            <div class="item">
+                <div class="art-img">
+                    <img src="assets/img/art/sketch3.png" alt="" />
+                </div>
+            </div>
+            <div class="item">
+                <div class="art-img">
+                    <img src="assets/img/art/snack.jpg" alt="" />
+                </div>
+            </div>
+            <div class="item">
+                <div class="art-img">
+                    <img src="assets/img/art/sketch.jpg" alt="" />
+                </div>
+            </div>
+            <div class="item">
+                <div class="art-img">
+                    <img src="assets/img/art/city.jpg" alt="" />
+                </div>
+            </div>
+            <div class="item">
+                <div class="art-img">
+                    <img src="assets/img/art/sketch5.png" alt="" />
+                </div>
+            </div>
+            <div class="item">
+                <div class="art-img">
+                    <img src="assets/img/art/dragoncat.jpg" alt="" />
+                </div>
+            </div>
+            <div class="item">
+                <div class="art-img">
+                    <img src="assets/img/art/people.jpg" alt="" />
+                </div>
+            </div>
+            <div class="item">
+                <div class="art-img">
+                    <img src="assets/img/art/duck.jpg" alt="" />
+                </div>
+            </div>
+            <div class="item">
+                <div class="art-img">
+                    <img src="assets/img/art/butterfly.jpg" alt="" />
+                </div>
+            </div>
+            <div class="item">
+                <div class="art-img">
+                    <img src="assets/img/art/sketch4.png" alt="" />
+                </div>
+            </div>
+            <div class="item">
+                <div class="art-img">
+                    <img src="assets/img/art/music.jpg" alt="" />
+                </div>
+            </div>
+            <div class="item">
+                <div class="art-img">
+                    <img src="assets/img/art/sea2.png" alt="" />
+                </div>
+            </div>
+            <div class="item">
+                <div class="art-img">
+                    <img src="assets/img/art/scandels.jpg" alt="" />
+                </div>
+            </div>
+            <div class="item">
+                <div class="art-img">
+                    <img src="assets/img/art/park.jpg" alt="" />
+                </div>
+            </div>
+            <div class="item">
+                <div class="art-img">
+                    <img src="assets/img/art/status.jpg" alt="" />
+                </div>
+            </div>
+            <div class="item">
+                <div class="art-img">
+                    <img src="assets/img/art/fox2.jpg" alt="" />
+                </div>
+            </div>
+            <div class="item">
+                <div class="art-img">
+                    <img src="assets/img/art/animal.jpg" alt="" />
+                </div>
+            </div>
+        </div>
+        <!-- End Slider -->
+    </div>
+</section>
+
+<!-- Client Logo Section -->
+<!--section id="client" class="section-padding gray-bg bg-image overlay-light" data-stellar-background-ratio="0.4" data-background-img="assets/img/full/work_with_opacity.jpg">
+    <div class="container text-center">
+        <h2 class="mb-60"><b>{{ 'Cooperationship' | translate }}</b></h2>
+    </div>
+    <div class="container"-->
+        <!-- Slider -->
+        <!--div class="owl-carousel client-carousel">
+            <div class="item">
+                <div class="client-logo">
+                    <a href="https://www.kgibank.com/" target="_blank">
+                        <img src="assets/img/logos/kgi.jpg" alt="KGI Bank" /></a>
+                </div>
+            </div>
+            <div class="item">
+                <div class="client-logo">
+                    <a href="https://ebank.taipeifubon.com.tw/" target="_blank">
+                        <img src="assets/img/logos/fubon.png" alt="Fubon BANK" /></a>
+                </div>
+            </div>
+            <div class="item">
+                <div class="client-logo">
+                    <a href="https://www.feib.com.tw/" target="_blank">
+                        <img src="assets/img/logos/feib.png" alt="Fei BANK" /></a>
+                </div>
+            </div>
+        </div-->
+        <!-- End Slider -->
+    <!--/div>
+</section-->
+<!-- End Client Logo Section -->
+
+
+<!-- Contact Form Section -->
+<section id="contact-us" class="section-padding">
+    <div class="container text-center">
+        <h3 class="dark"><b>{{ 'Wanna create something cool together?' | translate }}</b></h3>
+        <h2 class="mb-60 color"><b>{{ 'Get in Touch' | translate }}</b></h2>
+
+        <!-- Contact Info -->
+        <!--div class="row mb-60">
+            <div class="col-md-8 offset-md-2">
+                <div class="row">
+                    <div class="col-md-4 col-sm-6 mb-sm-30">
+                        <div class="contact-info">
+                            <div class="alt-icon-top alt-icon-color">
+                                <i class="icon-phone"></i>
+                            </div>
+                            <p class="lead">+40 (0) 012 345 6789</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 mb-sm-30">
+                        <div class="contact-info">
+                            <div class="alt-icon-top alt-icon-color">
+                                <i class="icon-map-pin"></i>
+                            </div>
+                            <p class="lead">
+                                250 South Street Baldwin,<br />
+                                NY 11510
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 mb-sm-30">
+                        <div class="contact-info">
+                            <div class="alt-icon-top alt-icon-color">
+                                <i class="icon-envelope"></i>
+                            </div>
+                            <p class="lead">yourname@domain.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div-->
+        <!-- End Contact Info -->
+        <!-- Contact form -->
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <form id="contact" class="contact-form row" role="form"
+                    #messageForm="ngForm" (ngSubmit)="sendMessage()">
+                    <div class="col-md-12 text-center" *ngIf="sended">
+                        <h5 class="successContent" *ngIf="success">
+                            <i class="fa fa-check left" style="color: #5cb45d;"></i>{{ 'Your message has been sent successfully.' | translate }}
+                        </h5>
+                        <!--h5 class="errorContent" style="color: #e1534f;" *ngIf="!messageForm.form.valid">
+                            <i class="fa fa-exclamation-circle left"></i>{{ 'There was a problem validating the form please check!' | translate }}
+                        </h5-->
+                        <h5 class="errorContent" style="color: #e1534f;" *ngIf="!success">
+                            <i class="fa fa-exclamation-circle left"></i>{{ 'There was a problem sending the message, please try again later.' | translate }}
+                        </h5>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="form-field-wrapper">
+                            <input class="input-lg form-full form-control" 
+                            id="formName" type="text" name="formName" 
+                            placeholder="{{ 'Your Name' | translate }}" 
+                            [(ngModel)]="newMessage.name" #formName="ngModel"
+                            required />
+                        </div>
+
+
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-field-wrapper">
+                            <input class="input-lg form-full form-control" 
+                            id="formEmail" type="email" name="formEmail"
+                            [pattern]="emailPattern"
+                            placeholder="Email"
+                            [(ngModel)]="newMessage.email" #formEmail="ngModel"
+                            required />
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="form-field-wrapper">
+                            <input class="input-lg form-full form-control" 
+                            id="formSubject" type="text" 
+                            name="formSubject" 
+                            [(ngModel)]="newMessage.subject" #formSubject="ngModel"
+                            placeholder="{{ 'Subject' | translate }}"
+                            required />
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="form-field-wrapper">
+                            <textarea class="home-contact-txt-msg input-lg form-full form-control" 
+                                id="formMessage" rows="7" 
+                                name="formMessage" 
+                                placeholder="{{ 'Your Message' | translate }}" 
+                                [(ngModel)]="newMessage.content" #formMessage="ngModel"
+                                required></textarea>
+                        </div>
+
+                    </div>
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-lg-6 col-12">
+                                <re-captcha (resolved)="resolved($event)" [(ngModel)]="captcha"
+                                    class="border-0"
+                                    name="captcha" id="captcha" required
+                                    ></re-captcha>
+                            </div>
+                            <div class="col-lg-6 col-12">
+                                <button class="btn btn-lg btn-black mx-auto mt-3" 
+                                    [disabled]="!messageForm.form.valid || sending"
+                                    type="submit">
+                                    {{ !sending?'Send Message':'Sending....' | translate }}
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- End Contact form -->
+
+    </div>
+</section>
+<!-- End Contact Form Section -->
